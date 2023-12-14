@@ -1,0 +1,14 @@
+#include <iostream>
+
+// Функция для вычисления неполного факториала
+unsigned long long incompleteFactorial(int n) {
+ 
+
+
+        std::cout << "Неполный факториал не определен для отрицательных чисел.\n";
+    } else {
+        // Вызов функции для вычисления неполного факториала
+        unsigned long long result = incompleteFactorial(number);
+
+        // Вывод результата
+        std::cout << "Неполный факториал " << number << ": " << result << std::endl;
